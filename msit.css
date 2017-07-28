@@ -1,0 +1,334 @@
+body {
+	 height:1000px;
+	 background-color:#D7DBDD;
+}
+* {
+	 padding:0%;
+	 margin:0%;
+	 box-sizing:border-box;
+	 
+}
+   /* top nav bar starts here */
+	
+	#header1 {
+		       background-color:#D5D8DC;
+			   width:100%;
+			   height:30px;
+	}
+    #toplist {
+		     list-style-type:none;
+			 display:block;
+			 background-color:#D5D8DC;
+			 margin-left:12%;
+			 padding:.4%;
+	}
+    #xyz {
+		 float:left;
+	margin-left:2%;}
+	
+	#xyz:hover {
+		 text-decoration:underline;
+		 
+	}	 
+		 
+		
+	#xyz a {
+		   text-decoration:none;
+		   color:black;
+		   font-family:sans-serif;
+		   font-size:.9em;
+		  border-right:1px solid black;
+		  text-shadow:.5px .5px white;
+		   
+	}
+	/* Top navbar ends here */
+	
+	/* main header starts here */
+	#header2 {
+		      background-color:#117A65;
+			  width:100%;
+			  height:100px;
+			  position:relative;
+	}
+	#logo {
+			   cursor:pointer;
+			   position:absolute;
+			   margin-left:14%;
+			   margin-top:.5%;
+	}
+	#logo img {
+		       height:60%;
+			   width:60%;
+			   cursor:pointer;
+	}
+	#collegename {
+		           color:white;
+				   font-family:sans-serif;
+				   position:absolute;
+				   font-size:1.5em;
+				   padding:1.2% 0 0 35%;
+	}
+	#affiliation{
+		         color:white;
+				   font-family:sans-serif;
+				   position:absolute;
+				   font-size:.8em;
+				   padding:4.5% 0 0 36.5%;
+	}
+	 /* main header end here */
+	 
+	 /* bottom nav bar starts here */
+	 nav {
+		  width:100%;
+		  height:40px;
+		  background-color:black;
+	 }
+	 #bottomlist {
+		           list-style-type:none;
+				   margin-left:20%;
+				   padding:.8%;
+				   cursor:pointer;
+	 }
+	 #abc {
+		  display:inline;
+		  margin-left:.6%;
+		  padding:2%;
+		  transition:font-weight 400ms ease-in-out;
+	 }
+	 #abc:hover {
+		          font-weight:bold;
+	 }
+	 #abc a {
+		        text-decoration:none;
+				color:white;
+				font-family:sans-serif;
+				font-size:.9em;
+			
+	 }
+	 /* bottom navbar end here */
+	 
+	 /* sidebar starts here */
+	.sidebar {
+		      position:relative;;
+			 
+	}
+	#about {
+		      background-color:#EAEDED  ;
+			  border:1px solid #99A3A4  ;
+			  height:40px;
+			  width:11.1%;
+			  position:absolute;
+			  margin:2% 8%;
+			  border-top-left-radius:5px;
+			  border-top-right-radius:5px;
+	}
+	#links {
+		    font-family:sans-serif;
+			padding:8% 20%;
+	}
+	aside {
+		 background-color:white;
+		 width:11.1%;
+		 height:750px;
+		 position:absolute;
+		 margin:5% 8%;
+		 border:1px solid  #D7DBDD;
+		 
+	}
+	.about {
+		 position:absolute;
+		 color:#E67E22   ;
+		 font-weight:bold;
+		 padding:10%;
+	}
+	.list1 {
+		      margin:25%;	}
+    .list1 li a {
+		         text-decoration:none;
+				 color:#229954;
+				 font-family:sans-serif;
+				 font-size:.9em;
+	}
+	.list1 li {
+		margin-top:1%;
+	}
+	.list1 li:hover {
+		            background-color:#E5E7E9  ;
+	}
+	.departments {
+		         position:absolute;
+		 color:#E67E22    ;
+		 font-weight:bold;
+		 padding-left:10%;
+		 margin-top:-10%;
+	}
+	#list2 {
+		      margin:28%;
+	}
+	 #list2 li {
+		          margin-top:5%;
+	 }
+	 #list2 li a {
+		           text-decoration:none;
+				 color:#229954;
+				 font-family:sans-serif;
+				 font-size:.9em;
+	 }
+	 #list2 li:hover {
+		 background-color:#E5E7E9  ;
+	 }
+	 .student {
+		 position:absolute;
+		 color:#E67E22  ;
+		 font-weight:bold;
+		 margin-top:-15%;
+		 margin-left:10%;
+	 }
+	 .list3 li a {
+		  text-decoration:none;
+				 color:#229954;
+				 font-family:sans-serif;
+				 font-size:.9em;
+	 }
+	 .list3 {
+		      margin:28%;
+	 }
+	 .list3 li:hover {
+		 background-color:#E5E7E9  ;
+	 }
+	 .commities {
+		 position:absolute;
+		 color:#E67E22   ;
+		 font-weight:bold;
+		 margin-left:10%;
+		 margin-top:-15%;
+	 }
+	 .list4 {
+		    margin:28%;
+	 }
+	 .list4 li a {
+		 text-decoration:none;
+				 color:#229954;
+				 font-family:sans-serif;
+				 font-size:.9em;
+	 }
+	 .list4 li:hover {
+		  background-color:#E5E7E9;
+	 }
+	 /* Sidebar ends here */
+	 
+	 /* Main content starts here */
+	 main {
+		   background-color:white;
+		   height:790px;
+		   width:60%;
+		   position:relative;
+		   margin-left:20.5%;
+		   margin-top:1.9%;
+		   border-radius:10px;
+		   
+	 }
+	 
+
+footer {
+	      background-color:black;
+		  width:100%;
+		  height:5%;
+		  position:relative;
+		  margin-top:3%;
+}
+#footercontent {
+	       color:grey;
+		   position:absolute;
+		   margin-left:10%;
+		   margin-top:1%;
+		   font-family:serif;
+}
+#team  {
+	   color:blue;
+	   position:absolute;
+	   padding:1% 0 0 90%;
+	   
+}
+main {
+	 position:relative;
+	 width:62%;
+	 height:79%;
+}
+#image1 {
+	      box-shadow:1px 1px 5px 5px grey;
+		  height:40%;
+		  width:90%;
+		  position:absolute;
+		  margin:8% 4%;
+		  background-image:url("http://www.msit.in/ckeditor_assets/pictures/144/content_msgi_collage.jpg");
+		  background-size:cover;
+		  animation-name:example;
+		  animation-duration:2s;
+		  animation-iteration-count:infinite;
+		  animation-timing-function:ease-out;
+		-webkit-animation-name:example;
+	    -webkit-animation-duration:7s;
+		 -webkit-animation-iteration-count:infinite;
+		 -webkit-animation-timing-function:ease-out;
+}
+
+
+@keyframes example {
+	
+	               0%  { background-image:url("http://www.msit.in/ckeditor_assets/pictures/144/content_msgi_collage.jpg");}
+				    25%   { background-image:url("http://www.msit.in/ckeditor_assets/pictures/79/content_12510424_1043853775636960_6820829388253497897_n.jpg");}
+		             50% { background-image:url("http://www.msit.in/ckeditor_assets/pictures/78/content_04.jpg");}
+                     75% { background-image:url("http://www.msit.in/ckeditor_assets/pictures/82/content_004.jpg");}
+					 100% { backgroud-image:url("http://www.msit.in/ckeditor_assets/pictures/80/content_02.jpg");}
+}
+	      
+#welcome {
+	      color:black;
+		  font-family:sans-serif;
+		  padding:3%;
+		  position:absolute;
+		  font-weight:bold;
+		  
+}
+#latestnews {
+	            border-top-left-radius:5px;
+			  border-top-right-radius:5px;
+		      background-color:#EAEDED  ;
+			  border:1px solid #99A3A4  ;
+			   width:11.1%;
+			   height:6%;
+			   position:absolute;
+			   margin-left:84%;
+			   margin-top:2%;
+}
+#sidebar2 {
+	            background-color:white;
+				position:absolute;
+				width:11.1%;
+				height:70%;
+				margin:2% 0 0 84%;
+}
+button {
+	         width:100%;
+			 height:10%;
+			 font-size:1em;
+			 color:blue;
+			 font-weight:bold;
+			 
+}
+#md {
+	    list-style-type:none;
+		padding:10%;
+} 
+#md li {
+	     
+		   margin-top:35%;
+}
+#md li a {
+	        text-decoration:none;
+			color:#229954;
+}
+ #md li:hover {
+	            font-weight:bold;
+}
